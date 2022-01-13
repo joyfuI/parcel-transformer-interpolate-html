@@ -1,0 +1,32 @@
+{
+  "name": "parcel-transformer-interpolate-html",
+  "version": "0.1.0",
+  "description": "Parcel v2 plugin that interpolates ENV in HTML files",
+  "keywords": [
+    "parcel",
+    "parcel-plugin",
+    "html",
+    "interpolate"
+  ],
+  "homepage": "https://github.com/joyfuI/parcel-transformer-interpolate-html",
+  "bugs": "https://github.com/joyfuI/parcel-transformer-interpolate-html/issues",
+  "license": "MIT",
+  "author": "joyfuI",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joyfuI/parcel-transformer-interpolate-html.git"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@parcel/plugin": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "parcel": "2.x"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "parcel-transformer-interpolate-html",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parcel v2 plugin that interpolates ENV in HTML files",
   "keywords": [
     "parcel",
@@ -19,12 +19,12 @@
   },
   "scripts": {},
   "dependencies": {
-    "@parcel/plugin": "^2.2.0"
+    "@parcel/plugin": "^2.4.0"
   },
   "devDependencies": {
-    "eslint": "^8.6.0",
-    "eslint-config-prettier": "^8.3.0",
-    "prettier": "^2.5.1"
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.1"
   },
   "engines": {
     "parcel": "2.x"

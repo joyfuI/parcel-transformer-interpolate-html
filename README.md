@@ -2,6 +2,8 @@
 
 HTML 파일에 환경변수를 대입하는 Parcel v2 플러그인
 
+관련 잡담은 [https://blog.joyfui.com/1247](https://blog.joyfui.com/1247)
+
 ## 설치
 
 ```bash
@@ -34,7 +36,7 @@ yarn add -D parcel-transformer-interpolate-html
 
 _**index.html**_
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,13 +48,13 @@ _**index.html**_
 
 _**.env**_
 
-```
+```env
 title=Example
 ```
 
 빌드 결과 (`parcel build index.html`)
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
